@@ -1,0 +1,200 @@
+/*
+ * Lythos görsel dili: fildişi ve kömür yüzeyler, kil (terracotta) vurgu,
+ * başlıklarda serif. Ürünlerin arayüzleriyle aynı aileden görünür.
+ */
+
+:root {
+  --lx-serif: 'Newsreader', 'Tiempos Text', Georgia, 'Times New Roman', serif;
+  --vp-font-family-base: 'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --vp-font-family-mono: 'JetBrains Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace;
+
+  --vp-c-brand-1: #c6613f;
+  --vp-c-brand-2: #b25434;
+  --vp-c-brand-3: #d97757;
+  --vp-c-brand-soft: rgba(217, 119, 87, 0.14);
+  --lx-accent-2: #e0a060;
+
+  --vp-c-bg: #faf9f5;
+  --vp-c-bg-alt: #f3f1ea;
+  --vp-c-bg-soft: #f0eee6;
+  --vp-c-bg-elv: #ffffff;
+  --vp-c-divider: #e3dfd3;
+  --vp-c-gutter: #e8e4d8;
+  --vp-c-text-1: #1f1e1d;
+  --vp-c-text-2: #55524d;
+  --vp-c-text-3: #87837b;
+
+  --vp-home-hero-name-color: var(--vp-c-brand-1);
+  --vp-button-brand-bg: var(--vp-c-brand-1);
+  --vp-button-brand-hover-bg: var(--vp-c-brand-2);
+  --vp-code-bg: #efece3;
+  --vp-code-block-bg: #f3f1ea;
+  --vp-custom-block-tip-bg: rgba(106, 155, 106, 0.1);
+
+  --lx-hero-a: rgba(217, 119, 87, 0.16);
+  --lx-hero-b: rgba(224, 160, 96, 0.12);
+  --lx-term-bg: #1f1e1d;
+  --lx-term-border: #34322f;
+
+  --lx-ink: #3d3a36;
+  --lx-ink-faint: rgba(61, 58, 54, 0.25);
+  --lx-soil-1: #ead8b4;
+  --lx-soil-2: #d9bf92;
+  --lx-soil-3: #b89d7a;
+  --lx-soil-4: #9c8466;
+  --lx-rock: #b7b1a6;
+  --lx-rock-line: #8d877c;
+  --lx-fill: #e3c89a;
+  --lx-concrete: #d8d4cb;
+  --lx-concrete-dark: #8f8a80;
+  --lx-steel: #4a5a6a;
+  --lx-glow: rgba(198, 97, 63, 0.45);
+}
+
+.dark {
+  --vp-c-brand-1: #e08a68;
+  --vp-c-brand-2: #d97757;
+  --vp-c-brand-3: #c6613f;
+  --vp-c-brand-soft: rgba(224, 138, 104, 0.16);
+  --lx-accent-2: #f0c08a;
+
+  --vp-c-bg: #1c1b1a;
+  --vp-c-bg-alt: #171615;
+  --vp-c-bg-soft: #242321;
+  --vp-c-bg-elv: #262523;
+  --vp-c-divider: #36342f;
+  --vp-c-gutter: #121110;
+  --vp-c-text-1: #f2efe8;
+  --vp-c-text-2: #c2bdb3;
+  --vp-c-text-3: #8f8a80;
+
+  --vp-code-bg: #2a2926;
+  --vp-code-block-bg: #211f1d;
+
+  --lx-hero-a: rgba(224, 138, 104, 0.14);
+  --lx-hero-b: rgba(240, 192, 138, 0.06);
+  --lx-term-bg: #151413;
+  --lx-term-border: #33312d;
+
+  --lx-ink: #d9d4ca;
+  --lx-ink-faint: rgba(217, 212, 202, 0.2);
+  --lx-soil-1: #5a4b36;
+  --lx-soil-2: #4d3f2d;
+  --lx-soil-3: #413526;
+  --lx-soil-4: #362c20;
+  --lx-rock: #4b4843;
+  --lx-rock-line: #6e6a62;
+  --lx-fill: #6b573b;
+  --lx-concrete: #6b6760;
+  --lx-concrete-dark: #8b867c;
+  --lx-steel: #9fb2c4;
+  --lx-glow: rgba(224, 138, 104, 0.5);
+}
+
+/* başlıklar */
+.vp-doc h1,
+.vp-doc h2 {
+  font-family: var(--lx-serif);
+  font-weight: 500;
+  letter-spacing: -0.015em;
+}
+.vp-doc h1 { font-size: 40px; line-height: 1.15; }
+.vp-doc h2 { font-size: 28px; border-top: 1px solid var(--vp-c-divider); }
+.vp-doc h3 { font-weight: 650; letter-spacing: -0.005em; }
+
+.VPNavBarTitle .title { font-family: var(--lx-serif); font-size: 21px; font-weight: 600; letter-spacing: -0.01em; }
+.VPNavBar:not(.home.top) .content-body,
+.VPNavBar.has-sidebar .content-body { backdrop-filter: saturate(160%) blur(10px); }
+
+/* ana sayfa: varsayılan kapsayıcı kenar boşluklarını kaldır */
+.VPHome { padding-bottom: 0 !important; }
+.VPHome .vp-doc { padding: 0 !important; max-width: none !important; }
+.VPHome .container { max-width: none !important; padding: 0 !important; }
+
+/* tablolar */
+.vp-doc table { display: table; width: 100%; border-radius: 10px; overflow: hidden; font-size: 14.5px; }
+.vp-doc th { background: var(--vp-c-bg-soft); font-weight: 650; }
+.vp-doc tr:nth-child(2n) { background: transparent; }
+.vp-doc td, .vp-doc th { border-color: var(--vp-c-divider); }
+.vp-doc .table-wrap { overflow-x: auto; }
+
+/* kod blokları */
+.vp-doc div[class*='language-'] { border-radius: 12px; border: 1px solid var(--vp-c-divider); }
+.vp-doc div.language-text,
+.vp-doc div.language-console { background: var(--lx-term-bg); border-color: var(--lx-term-border); }
+.vp-doc div.language-text code,
+.vp-doc div.language-console code { color: #e7e5e4; }
+.vp-doc div.language-text span,
+.vp-doc div.language-console span { color: inherit !important; }
+.vp-doc div.language-text > span.lang,
+.vp-doc div.language-console > span.lang { color: #8a8580 !important; }
+.vp-doc div.language-text pre,
+.vp-doc div.language-console pre { white-space: pre; }
+.vp-doc div.language-text .copy,
+.vp-doc div.language-console .copy { filter: invert(0.85); }
+
+/* özel bloklar */
+.custom-block { border-radius: 12px; }
+.custom-block.tip { border-color: rgba(106, 155, 106, 0.35); }
+
+/* sonuç kutusu: <div class="result"> */
+.vp-doc .result {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 12px;
+  margin: 18px 0 24px;
+}
+.vp-doc .result > div {
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 12px;
+  padding: 12px 14px;
+  background: var(--vp-c-bg-soft);
+}
+.vp-doc .result small { display: block; color: var(--vp-c-text-3); font-size: 12px; line-height: 1.4; }
+.vp-doc .result strong { display: block; font-family: var(--lx-serif); font-size: 24px; font-weight: 500; line-height: 1.3; color: var(--vp-c-text-1); }
+.vp-doc .result .ok strong { color: #3f8f55; }
+.vp-doc .result .bad strong { color: #c0392b; }
+.dark .vp-doc .result .ok strong { color: #86c98f; }
+.dark .vp-doc .result .bad strong { color: #f08a7a; }
+
+/* adım listesi: <div class="steps"> içinde h3'ler */
+.vp-doc .steps { counter-reset: step; border-left: 2px solid var(--vp-c-divider); padding-left: 26px; margin-left: 10px; }
+.vp-doc .steps h3 { counter-increment: step; position: relative; }
+.vp-doc .steps h3::before {
+  content: counter(step);
+  position: absolute;
+  left: -40px;
+  top: 0;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background: var(--vp-c-brand-1);
+  color: #fff;
+  font-size: 13px;
+  display: grid;
+  place-items: center;
+  font-weight: 700;
+}
+
+/* rozetler */
+.vp-doc .pill {
+  display: inline-block;
+  padding: 1px 9px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 600;
+  background: var(--vp-c-brand-soft);
+  color: var(--vp-c-brand-1);
+  vertical-align: middle;
+}
+
+::selection { background: rgba(217, 119, 87, 0.28); }
+
+.vp-doc td:first-child { min-width: 7.5em; }
+
+@media (max-width: 768px) {
+  .vp-doc table { display: block; overflow-x: auto; }
+  .vp-doc .steps { padding-left: 18px; margin-left: 12px; }
+  .vp-doc .steps h3::before { left: -32px; }
+  .vp-doc div[class*='language-'] { max-width: 100%; }
+}
