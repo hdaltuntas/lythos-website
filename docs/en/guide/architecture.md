@@ -1,6 +1,6 @@
 # Shared architecture
 
-Seven members of the Lythos family share one skeleton (Lythos LE implements the same idea with a dependency-free core). Learn one and you can use them all.
+All eight members of the Lythos family share one architecture; Lythos LE implements the same idea with a dependency-free core. Learn one and you can use them all.
 
 ## Layers
 

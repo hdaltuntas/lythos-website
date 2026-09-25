@@ -138,7 +138,7 @@ export default defineConfig({
           linkText: 'Ana sayfaya dön'
         },
         footer: {
-          message: 'MIT lisansıyla yayımlanır.',
+          message: 'AGPL-3.0 lisansıyla yayımlanır.',
           copyright: '© 2025–2026 Hasan Deniz Altuntaş'
         },
         editLink: {
@@ -179,7 +179,7 @@ export default defineConfig({
         sidebar: sidebar('en'),
         outline: { label: 'On this page', level: [2, 3] },
         footer: {
-          message: 'Released under the MIT licence.',
+          message: 'Released under the AGPL-3.0 licence.',
           copyright: '© 2025–2026 Hasan Deniz Altuntaş'
         },
         editLink: {

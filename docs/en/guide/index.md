@@ -50,5 +50,5 @@ Every program's **Examples** page has commands and scripts that were actually ru
 </div>
 
 ::: tip Author
-Lythos is developed by Hasan Deniz Altuntaş and released under the MIT licence. The source is at [github.com/hdaltuntas](https://github.com/hdaltuntas).
+Lythos is developed by Hasan Deniz Altuntaş and released under the GNU Affero General Public License v3.0 (AGPL-3.0). The source is at [github.com/hdaltuntas](https://github.com/hdaltuntas).
 :::

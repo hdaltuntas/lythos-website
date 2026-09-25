@@ -67,4 +67,4 @@ docs/
 
 ## Lisans
 
-MIT © Hasan Deniz Altuntaş
+[GNU AGPL-3.0](LICENSE) © Hasan Deniz Altuntaş

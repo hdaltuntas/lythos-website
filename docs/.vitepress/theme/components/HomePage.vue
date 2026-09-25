@@ -12,7 +12,7 @@ const link = (path: string) => withBase(`${p.value}${path}`)
 
 const text = {
   tr: {
-    eyebrow: 'Açık kaynak · MIT · Python',
+    eyebrow: 'Açık kaynak · AGPL-3.0 · Python',
     title1: 'Zemin için hesap,',
     title2: 'tek bir aileden.',
     lead: 'Lythos; şevler, temeller ve istinat yapıları için sekiz geoteknik mühendisliği yazılımından oluşan bir ailedir. Hepsi aynı mimariyle tarayıcıdan sürülür, Türkçe ve İngilizce çalışır, PDF/HTML/Word rapor üretir ve her sonucu kapalı form çözümlere karşı test eder.',
@@ -54,7 +54,7 @@ const text = {
     ctaBtn: 'Kurulum rehberi'
   },
   en: {
-    eyebrow: 'Open source · MIT · Python',
+    eyebrow: 'Open source · AGPL-3.0 · Python',
     title1: 'Geotechnical engineering,',
     title2: 'one family of tools.',
     lead: 'Lythos is a family of eight geotechnical engineering programs for slopes, foundations and retaining structures. They share one architecture: driven from your browser, bilingual in English and Turkish, reporting to PDF, HTML and Word, and tested against closed-form solutions.',

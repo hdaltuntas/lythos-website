@@ -44,7 +44,7 @@ function copy() {
       <div><dt>{{ t.port }}</dt><dd>{{ p.port }}</dd></div>
       <div><dt>{{ t.python }}</dt><dd>{{ p.python }}</dd></div>
       <div><dt>{{ t.version }}</dt><dd>{{ p.version }}<span v-if="!p.pypi" class="muted"> · {{ t.github }}</span></dd></div>
-      <div><dt>{{ t.licence }}</dt><dd>MIT</dd></div>
+      <div><dt>{{ t.licence }}</dt><dd>AGPL-3.0</dd></div>
     </dl>
 
     <div class="links">

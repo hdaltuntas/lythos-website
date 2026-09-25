@@ -50,5 +50,5 @@ Her yazılımın **Örnekler** sayfasında, gerçekten çalıştırılmış komu
 </div>
 
 ::: tip Yazar
-Lythos, Hasan Deniz Altuntaş tarafından geliştirilir ve MIT lisansıyla yayımlanır. Kaynak kodlar [github.com/hdaltuntas](https://github.com/hdaltuntas) altındadır.
+Lythos, Hasan Deniz Altuntaş tarafından geliştirilir ve GNU Affero Genel Kamu Lisansı v3.0 (AGPL-3.0) ile yayımlanır. Kaynak kodlar [github.com/hdaltuntas](https://github.com/hdaltuntas) altındadır.
 :::

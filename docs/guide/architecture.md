@@ -1,6 +1,6 @@
 # Ortak mimari
 
-Lythos ailesinin yedi üyesi aynı iskeleti paylaşır (Lythos LE aynı fikri bağımlılıksız bir çekirdekle uygular). Birini öğrenen hepsini kullanır.
+Lythos ailesinin sekiz üyesi de aynı mimariyi paylaşır; Lythos LE aynı fikri bağımlılıksız bir çekirdekle uygular. Birini öğrenen hepsini kullanır.
 
 ## Katmanlar
 
