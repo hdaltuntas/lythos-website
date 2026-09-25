@@ -15,7 +15,7 @@ const text = {
     eyebrow: 'Açık kaynak · AGPL-3.0 · Python',
     title1: 'Zemin için hesap,',
     title2: 'tek bir aileden.',
-    lead: 'Lythos; şevler, temeller ve istinat yapıları için sekiz geoteknik mühendisliği yazılımından oluşan bir ailedir. Hepsi aynı mimariyle tarayıcıdan sürülür, Türkçe ve İngilizce çalışır, PDF/HTML/Word rapor üretir ve her sonucu kapalı form çözümlere karşı test eder.',
+    lead: 'Lythos; şevler, temeller ve istinat yapıları için sekiz geoteknik mühendisliği yazılımından oluşan bir ailedir. Hepsi aynı mimariyle tarayıcıdan çalıştırılır, Türkçe ve İngilizce kullanılabilir, PDF/HTML/Word rapor üretir ve her sonucu kapalı form çözümlere karşı test eder.',
     start: 'Hemen başlayın',
     explore: 'Yazılımları keşfedin',
     termNote: 'Tarayıcıda açılır; veriniz makinenizden çıkmaz.',
@@ -33,7 +33,7 @@ const text = {
     archTitle: 'Tek mimari, sekiz araç',
     archLead: 'Birini öğrenen hepsini kullanır. Aynı arayüz düzeni, aynı dosya mantığı, aynı komutlar.',
     features: [
-      ['Tarayıcıdan sürülür', 'Arayüz, kendi makinenizde çalışan küçük bir HTTP sunucusudur. Uzak oturumda, konteynerde ve ekransız sunucuda da çalışır.', 'M4 6h24v16H4z M4 10h24 M12 26h8 M16 22v4'],
+      ['Tarayıcıdan çalıştırılır', 'Arayüz, kendi makinenizde çalışan küçük bir HTTP sunucusudur. Uzak oturumda, konteynerde ve ekransız sunucuda da çalışır.', 'M4 6h24v16H4z M4 10h24 M12 26h8 M16 22v4'],
       ['Çift dilli', 'Her etiket, sonuç metni, şekil ve rapor Türkçe ve İngilizce; dil çalışırken değişir, sayılar değişmez.', 'M4 8h12 M10 5v3 M6 8c1 5 5 9 9 10 M14 8c-1 5-5 9-9 10 M18 27l5-12 5 12 M20 23h6'],
       ['Tek kaynaktan rapor', 'PDF, bağımsız HTML ve Word raporlar tek bir derlemeden çıkar; üçü de aynı şeyi söyler.', 'M8 3h11l6 6v20H8z M19 3v6h6 M12 15h9 M12 19h9 M12 23h6'],
       ['Proje dosyaları', 'Girdiler okunabilir JSON olarak kaydedilir. Tarayıcıda kurulan bir durum komut satırında gözetimsiz yeniden çalışır.', 'M5 6h8l3 3h11v17H5z M11 17l-3 3 3 3 M21 17l3 3-3 3'],
