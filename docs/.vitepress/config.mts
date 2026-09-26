@@ -1,8 +1,9 @@
 import { defineConfig, type DefaultTheme } from 'vitepress'
 
-// GitHub Pages bir proje sitesini /<depo-adı>/ altında yayınlar; iş akışı doğru
-// yolu BASE ile verir. Özel alan adında BASE=/ olur.
-const base = process.env.BASE || '/lythos-website/'
+// Site https://lythosapp.com kökünde (Cloudflare Pages) yayınlanır. Alt yolda
+// yayın gerekirse (örn. GitHub Pages proje sitesi) yol BASE ile verilir.
+const base = process.env.BASE || '/'
+const site = 'https://lythosapp.com'
 
 const products = [
   ['fea', 'LythosFEA'],
@@ -66,6 +67,7 @@ export default defineConfig({
   base,
   title: 'Lythos',
   cleanUrls: true,
+  sitemap: { hostname: site },
   lastUpdated: true,
   appearance: true,
 
@@ -74,7 +76,9 @@ export default defineConfig({
     ['meta', { name: 'theme-color', content: '#c6613f' }],
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { property: 'og:title', content: 'Lythos — geoteknik mühendisliği yazılım ailesi' }],
-    ['meta', { property: 'og:image', content: `${base}img/fea/slope_strain.png` }],
+    ['meta', { property: 'og:url', content: site }],
+    ['meta', { property: 'og:image', content: `${site}/img/fea/slope_strain.png` }],
+    ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
     ['link', { rel: 'preconnect', href: 'https://fonts.googleapis.com' }],
     ['link', { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' }],
     [

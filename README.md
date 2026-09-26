@@ -2,7 +2,7 @@
 
 Lythos geoteknik mühendisliği yazılım ailesinin tanıtım ve dokümantasyon sitesi. Türkçe ve İngilizce; her yazılım için genel bakış, **gerçekten çalıştırılmış çıktılarla** örnekler ve başvuru sayfaları.
 
-**Canlı site:** https://hdaltuntas.github.io/lythos-website/ (GitHub Pages etkinleştirildikten sonra)
+**Canlı site:** https://lythosapp.com
 
 | Yazılım | Depo |
 | --- | --- |
@@ -21,18 +21,27 @@ Node.js 18+ gerekir.
 
 ```bash
 npm install
-npm run dev        # http://localhost:5173/lythos-website/
+npm run dev        # http://localhost:5173/
 npm run build      # docs/.vitepress/dist
 npm run preview    # derlenmiş siteyi önizle
 ```
 
-## Yayına alma (GitHub Pages)
+## Yayına alma (Cloudflare Pages)
 
-1. Depoda **Settings → Pages → Build and deployment → Source** alanını **GitHub Actions** yapın.
-2. Değişiklikleri `main` dalına birleştirin. `.github/workflows/deploy.yml` siteyi derleyip yayınlar; ilerlemeyi **Actions** sekmesinde izleyin.
-3. Elle yeniden yayın: **Actions → Deploy site → Run workflow**.
+Site Cloudflare Pages’te, `lythosapp.com` alan adında yayınlanır. Cloudflare depoyu izler; `main`’e her push siteyi birkaç dakika içinde yeniden derleyip yayınlar, her pull request için ayrı bir önizleme adresi üretir.
 
-İş akışı taban yolunu (`/lythos-website/`) GitHub’dan kendisi alır. **Özel alan adı** (örn. `lythos.example.com`) için Settings → Pages → Custom domain alanını doldurmanız yeterlidir; taban yol kendiliğinden `/` olur.
+Cloudflare projesinin ayarları (Workers & Pages → proje → Settings → Build):
+
+| Ayar | Değer |
+| --- | --- |
+| Production branch | `main` |
+| Build command | `npm run build` |
+| Build output directory | `docs/.vitepress/dist` |
+| Node sürümü | `.node-version` dosyasından (22) |
+
+Alan adı: proje → **Custom domains** → `lythosapp.com` (ve isterseniz `www.lythosapp.com`). DNS ve SSL Cloudflare tarafından kendiliğinden kurulur.
+
+Önbellek ve güvenlik başlıkları `docs/public/_headers` dosyasındadır. Site kök adreste (`/`) yayınlanır; bir alt yolda yayınlamak gerekirse derlemeye `BASE=/alt-yol/` ortam değişkeni verilir.
 
 Pull request’lerde `.github/workflows/check.yml` sitenin kırık bağlantı olmadan derlendiğini doğrular.
 
