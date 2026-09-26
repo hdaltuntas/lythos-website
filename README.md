@@ -26,24 +26,24 @@ npm run build      # docs/.vitepress/dist
 npm run preview    # derlenmiş siteyi önizle
 ```
 
-## Yayına alma (Cloudflare Pages)
+## Yayına alma (Cloudflare Workers)
 
-Site Cloudflare Pages’te, `lythosapp.com` alan adında yayınlanır. Cloudflare depoyu izler; `main`’e her push siteyi birkaç dakika içinde yeniden derleyip yayınlar, her pull request için ayrı bir önizleme adresi üretir.
+Site Cloudflare’de statik varlıklı bir Worker (`lythos-website`) olarak, `lythosapp.com` alan adında yayınlanır. Cloudflare depoyu izler; `main`’e her push siteyi birkaç dakika içinde yeniden derleyip yayınlar. Derleme durumu GitHub’daki commit’in yanında “Workers Builds” kontrolü olarak görünür.
 
-Cloudflare projesinin ayarları (Workers & Pages → proje → Settings → Build):
+Cloudflare panelindeki ayarlar (Workers & Pages → lythos-website → Settings → Build):
 
 | Ayar | Değer |
 | --- | --- |
-| Production branch | `main` |
 | Build command | `npm run build` |
-| Build output directory | `docs/.vitepress/dist` |
-| Node sürümü | `.node-version` dosyasından (22) |
+| Deploy command | `npx wrangler deploy` |
+| Non-production branch deploy command | `npx wrangler versions upload` |
+| Root directory | `/` |
 
-Alan adı: proje → **Custom domains** → `lythosapp.com` (ve isterseniz `www.lythosapp.com`). DNS ve SSL Cloudflare tarafından kendiliğinden kurulur.
+Yayınlanacak klasör, 404 sayfası ve derleme adımı `wrangler.jsonc` dosyasında tanımlıdır; Node sürümü `.node-version` dosyasından (22) gelir. Önbellek ve güvenlik başlıkları `docs/public/_headers` dosyasındadır.
 
-Önbellek ve güvenlik başlıkları `docs/public/_headers` dosyasındadır. Site kök adreste (`/`) yayınlanır; bir alt yolda yayınlamak gerekirse derlemeye `BASE=/alt-yol/` ortam değişkeni verilir.
+Yerelden elle yayın (Cloudflare hesabıyla oturum açmış olarak): `npx wrangler deploy`.
 
-Pull request’lerde `.github/workflows/check.yml` sitenin kırık bağlantı olmadan derlendiğini doğrular.
+Site kök adreste (`/`) yayınlanır; bir alt yolda yayınlamak gerekirse derlemeye `BASE=/alt-yol/` ortam değişkeni verilir. Pull request’lerde `.github/workflows/check.yml` sitenin kırık bağlantı olmadan derlendiğini doğrular.
 
 ## Yapı
 
