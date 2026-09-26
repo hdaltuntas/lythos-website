@@ -1,0 +1,13 @@
+// Cloudflare Workers ayarları: site statik dosyalar olarak yayınlanır.
+// Derleme komutu `npm run build`; çıktı docs/.vitepress/dist klasörüne düşer.
+{
+  "name": "lythos-website",
+  "compatibility_date": "2025-09-01",
+  // Paneldeki derleme komutu boş olsa da wrangler deploy önce siteyi derler.
+  "build": { "command": "npm run build" },
+  "assets": {
+    "directory": "./docs/.vitepress/dist",
+    "not_found_handling": "404-page",
+    "html_handling": "auto-trailing-slash"
+  }
+}
