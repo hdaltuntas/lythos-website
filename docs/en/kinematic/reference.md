@@ -1,3 +1,8 @@
+---
+title: "Lythos Kinematic reference — methods, inputs, validation"
+description: "Lythos Kinematic reference: Package layout, Command line, The input file, Kinematic criteria, Validation."
+---
+
 # Lythos Kinematic — reference
 
 ## Package layout

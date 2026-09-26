@@ -1,3 +1,8 @@
+---
+title: "Lythos Bearing — sığ temellerde taşıma gücü hesabı"
+description: "Lythos Bearing: sığ temellerin taşıma gücü; Terzaghi, Meyerhof, Hansen, Vesić ve EN 1997-1 yan yana, dışmerkez yük, tabakalı zemin, deprem ve güvenilirlik analizi."
+---
+
 # Lythos Bearing
 
 <ProductHero id="bearing" />

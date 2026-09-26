@@ -1,3 +1,8 @@
+---
+title: "Lythos LE examples — limit equilibrium slope stability (Bishop, Spencer, Morgenstern-Price)"
+description: "Lythos LE examples with real output: The built-in examples, The ACADS benchmark, Your own model from the command line, Earthquake and non-circular…"
+---
+
 # Lythos LE — examples
 
 Every output is from a real run.

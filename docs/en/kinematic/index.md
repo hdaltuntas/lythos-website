@@ -1,3 +1,8 @@
+---
+title: "Lythos Kinematic — rock slope kinematic analysis and wedge stability"
+description: "Lythos Kinematic: Markland screening on a stereonet, Monte Carlo probability of failure, wedge, planar and toppling analysis and rock bolt design for rock slopes."
+---
+
 # Lythos Kinematic
 
 <ProductHero id="kinematic" />

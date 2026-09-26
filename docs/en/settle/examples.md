@@ -1,3 +1,8 @@
+---
+title: "Lythos Settle examples — settlement and consolidation of foundations and embankments"
+description: "Lythos Settle examples with real output: Settlement of a raft, The effect of the method, An embankment (trapezoidal load), A reliability study."
+---
+
 # Lythos Settle — examples
 
 Every output is from a real run. The starter project: **a flexible 8 × 16 m raft on soft clay**.

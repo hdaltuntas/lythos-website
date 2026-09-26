@@ -1,3 +1,8 @@
+---
+title: "Lythos Kinematic başvuru — yöntemler, girdiler, doğrulama"
+description: "Lythos Kinematic başvuru kılavuzu: Paket düzeni, Komut satırı, Girdi dosyası, Kinematik ölçütler, Doğrulama."
+---
+
 # Lythos Kinematic — başvuru
 
 ## Paket düzeni

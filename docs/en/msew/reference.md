@@ -1,3 +1,8 @@
+---
+title: "Lythos MSEW reference — methods, inputs, validation"
+description: "Lythos MSEW reference: What it computes, Inputs, Project file (.msew), Modules, Validation, Not included."
+---
+
 # Lythos MSEW — reference
 
 ## What it computes

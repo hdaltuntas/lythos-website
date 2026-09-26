@@ -1,3 +1,8 @@
+---
+title: "Lythos Kinematic examples — rock slope kinematic analysis and wedge stability"
+description: "Lythos Kinematic examples with real output: The inputs, Kinematic screening, Limit equilibrium of the critical plane, Wedge and toppling, The Python API."
+---
+
 # Lythos Kinematic — examples
 
 Every output is from a real run. The input file written by `example` carries one workflow from start to finish.

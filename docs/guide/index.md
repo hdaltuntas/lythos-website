@@ -1,3 +1,8 @@
+---
+title: "Lythos nedir? — açık kaynaklı geoteknik yazılım ailesi"
+description: "Lythos: şevler, temeller ve istinat yapıları için sekiz açık kaynaklı geoteknik mühendisliği yazılımından oluşan aile; ortak ilkeleri ve nereden başlanacağı."
+---
+
 # Lythos nedir?
 
 **Lythos**, geoteknik mühendisliğinin günlük hesaplarını yapan sekiz yazılımdan oluşan açık kaynaklı bir ailedir. Adı Yunanca *lithos* (taş) sözcüğünden gelir. Her üye tek bir işi derinlemesine yapar; birlikte bir projenin şev, temel ve istinat yapısı tasarımının tamamını kapsarlar.

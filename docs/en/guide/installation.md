@@ -1,3 +1,8 @@
+---
+title: "Installation — Lythos geotechnical software"
+description: "Installing the Lythos programs: pip from PyPI or GitHub, dependencies, running from a clone, virtual environments and the default port of each program."
+---
+
 # Installation
 
 Every Lythos program is a pure Python package and installs the same way. All you need is **Python 3.10 or later** (3.9 is enough for Lythos LE).

@@ -1,3 +1,8 @@
+---
+title: "Lythos SPWA — palplanş perde ve ankrajlı iksa analizi"
+description: "Lythos SPWA: palplanş perde analizi; serbest zemin desteği limit dengesi, aşamalı Winkler kiriş-yay, Mononobe-Okabe deprem basınçları ve ankraj kuvvetleri."
+---
+
 # Lythos SPWA
 
 <ProductHero id="spwa" />

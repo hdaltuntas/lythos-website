@@ -1,3 +1,8 @@
+---
+title: "Lythos Pile — pile capacity, pile groups and rock sockets"
+description: "Lythos Pile: axial pile capacity (α, β, λ methods), pile group efficiency and block failure, required pile length, group settlement and rock socket design."
+---
+
 # Lythos Pile
 
 <ProductHero id="pile" />

@@ -1,3 +1,8 @@
+---
+title: "Lythos Kinematic — kaya şevi kinematik analizi ve kama stabilitesi"
+description: "Lythos Kinematic: kaya şevlerinde stereonet üzerinde Markland taraması, Monte Carlo göçme olasılığı, kama/düzlemsel/devrilme analizi ve kaya bulonu tasarımı."
+---
+
 # Lythos Kinematic
 
 <ProductHero id="kinematic" />

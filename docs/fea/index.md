@@ -1,3 +1,8 @@
+---
+title: "LythosFEA — 2B sonlu elemanlar ile şev ve derin kazı analizi"
+description: "LythosFEA: şevler, dolgular ve derin kazılar için açık kaynaklı 2B sonlu elemanlar yazılımı. Mukavemet azaltmayla güvenlik sayısı, aşamalı inşaat, DXF içe aktarma."
+---
+
 # LythosFEA
 
 <ProductHero id="fea" />

@@ -1,3 +1,8 @@
+---
+title: "Lythos Kinematic örnekleri — kaya şevi kinematik analizi ve kama stabilitesi"
+description: "Lythos Kinematic ile gerçekten çalıştırılmış örnekler ve çıktıları: Girdiler, Kinematik tarama, Kritik düzlem için limit denge, Kama ve devrilme, Python API."
+---
+
 # Lythos Kinematic — örnekler
 
 Bütün çıktılar gerçek çalıştırmalardır. `example` komutunun yazdığı girdi dosyası tek bir iş akışını baştan sona taşır.

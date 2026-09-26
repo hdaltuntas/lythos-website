@@ -1,3 +1,8 @@
+---
+title: "Lythos Settle örnekleri — temel ve dolgu oturma hesabı, konsolidasyon"
+description: "Lythos Settle ile gerçekten çalıştırılmış örnekler ve çıktıları: Radye oturması, Yöntem seçimlerinin etkisi, Dolgu (trapez yük), Güvenilirlik çalışması."
+---
+
 # Lythos Settle — örnekler
 
 Bütün çıktılar gerçek çalıştırmalardır. Başlangıç projesi: **yumuşak kil üzerinde 8 × 16 m’lik esnek radye**.

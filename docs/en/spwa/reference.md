@@ -1,3 +1,8 @@
+---
+title: "Lythos SPWA reference — methods, inputs, validation"
+description: "Lythos SPWA reference: Method notes, Inputs, Project file (.spwa), Modules, Validation."
+---
+
 # Lythos SPWA — reference
 
 ## Method notes

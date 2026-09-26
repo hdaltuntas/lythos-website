@@ -1,3 +1,8 @@
+---
+title: "Lythos LE — limit denge şev stabilitesi (Bishop, Spencer, Morgenstern-Price)"
+description: "Lythos LE: dilim yöntemiyle şev stabilitesi. Fellenius, Bishop, Janbu, Spencer, Morgenstern-Price dahil 8 yöntem, kritik kayma yüzeyi araması; bağımlılıksız Python."
+---
+
 # Lythos LE
 
 <ProductHero id="le" />

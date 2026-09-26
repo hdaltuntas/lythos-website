@@ -1,3 +1,8 @@
+---
+title: "Lythos Pile — kazık taşıma gücü, kazık grubu ve kaya soketi"
+description: "Lythos Pile: kazık taşıma gücü (α, β, λ yöntemleri), kazık grubu verimi ve blok göçme, gerekli kazık boyu, grup oturması ve 12 korelasyonla kaya soketi tasarımı."
+---
+
 # Lythos Pile
 
 <ProductHero id="pile" />

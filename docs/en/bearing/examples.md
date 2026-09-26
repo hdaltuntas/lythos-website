@@ -1,3 +1,8 @@
+---
+title: "Lythos Bearing examples — bearing capacity of shallow foundations"
+description: "Lythos Bearing examples with real output: Running the starter project, A width sweep from Python, Reading the methods as a table, EN 1997-1 design…"
+---
+
 # Lythos Bearing — examples
 
 Every command and script on this page was run and its output is quoted as it came. They all start from the same starter project: **a 2.5 × 4.0 m rectangular footing on layered ground**.

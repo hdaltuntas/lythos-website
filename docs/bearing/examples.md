@@ -1,3 +1,8 @@
+---
+title: "Lythos Bearing örnekleri — sığ temellerde taşıma gücü hesabı"
+description: "Lythos Bearing ile gerçekten çalıştırılmış örnekler ve çıktıları: Başlangıç projesini çalıştırmak, Python’dan genişlik taraması, Yöntemleri tablo olarak…"
+---
+
 # Lythos Bearing — örnekler
 
 Bu sayfadaki bütün komutlar ve betikler çalıştırılmış, çıktılar olduğu gibi aktarılmıştır. Hepsi aynı başlangıç projesinden yola çıkar: **tabakalı zemin üzerinde 2.5 × 4.0 m’lik dikdörtgen temel**.

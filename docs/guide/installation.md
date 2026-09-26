@@ -1,3 +1,8 @@
+---
+title: "Kurulum — Lythos geoteknik yazılımları"
+description: "Lythos yazılımlarının kurulumu: PyPI veya GitHub’dan pip ile kurulum, bağımlılıklar, klondan çalıştırma, sanal ortam ve her yazılımın varsayılan portu."
+---
+
 # Kurulum
 
 Bütün Lythos yazılımları saf Python paketleridir ve aynı şekilde kurulur. Gereken tek şey **Python 3.10 veya üzeri** (Lythos LE için 3.9 yeterli).

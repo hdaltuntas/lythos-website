@@ -1,3 +1,8 @@
+---
+title: "Which geotechnical software, when?"
+description: "Map geotechnical questions to the right tool: slope stability, finite elements, rock slopes, bearing capacity, settlement, piles, sheet piles and MSE walls."
+---
+
 # Which tool, when?
 
 The Lythos family deliberately contains tools that answer the same question two ways: a slope can be solved by limit equilibrium (LE) or by finite elements (FEA); a sheet pile wall by limit equilibrium or by beam-spring. The table below maps typical engineering questions to the right tool.

@@ -1,3 +1,8 @@
+---
+title: "LythosFEA reference — methods, inputs, validation"
+description: "LythosFEA reference: Command line, DXF import, Validation, Limitations."
+---
+
 # LythosFEA — reference
 
 ## Command line

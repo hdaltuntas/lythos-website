@@ -1,3 +1,8 @@
+---
+title: "Hangi geoteknik yazılım, ne zaman?"
+description: "Geoteknik mühendislik sorularını doğru araca eşleyin: şev stabilitesi, sonlu elemanlar, kaya şevi, taşıma gücü, oturma, kazık, palplanş ve MSE duvar."
+---
+
 # Hangi araç, ne zaman?
 
 Lythos ailesinde aynı soruya iki farklı yoldan cevap veren araçlar bilerek bulunur: bir şev hem limit dengeyle (LE) hem de sonlu elemanlarla (FEA) çözülebilir; bir palplanş hem limit dengeyle hem kiriş-yayla. Aşağıdaki tablo tipik mühendislik sorularını doğru araca eşler.

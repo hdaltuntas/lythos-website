@@ -1,3 +1,8 @@
+---
+title: "Lythos Pile başvuru — yöntemler, girdiler, doğrulama"
+description: "Lythos Pile başvuru kılavuzu: Çevre sürtünmesi, Uç direnci, Ağırlık, kapasite, kontrol, Gruplar, Oturma, Kaya soketi, Girdiler, Modüller, Doğrulama."
+---
+
 # Lythos Pile — başvuru
 
 ## Çevre sürtünmesi

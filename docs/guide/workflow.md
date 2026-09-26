@@ -1,3 +1,8 @@
+---
+title: "Uçtan uca geoteknik tasarım örneği — bir liman sahası"
+description: "Uçtan uca geoteknik tasarım: bir liman sahasında temel, önyükleme dolgusu, şev, kazık, rıhtım perdesi, derin kazı, MSE duvar ve kaya şevi, sekiz Lythos aracıyla."
+---
+
 # Uçtan uca bir proje
 
 Bu sayfa, hayali bir **liman genişletme sahasında** Lythos ailesinin sekiz üyesini sırayla kullanır. Her adım, ilgili yazılımın kendi örnek projesiyle (ya da ona yapılmış küçük bir değişiklikle) **gerçekten çalıştırılmış** ve çıktılar olduğu gibi aktarılmıştır.

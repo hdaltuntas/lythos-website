@@ -1,3 +1,8 @@
+---
+title: "Lythos LE başvuru — yöntemler, girdiler, doğrulama"
+description: "Lythos LE başvuru kılavuzu: Model biçimi, Formülasyon, Komut satırı, Doğrulama, Sınırlar, Proje düzeni."
+---
+
 # Lythos LE — başvuru
 
 ## Model biçimi

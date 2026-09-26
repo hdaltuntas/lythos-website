@@ -1,3 +1,8 @@
+---
+title: "Lythos LE örnekleri — limit denge şev stabilitesi (Bishop, Spencer, Morgenstern-Price)"
+description: "Lythos LE ile gerçekten çalıştırılmış örnekler ve çıktıları: Yerleşik örnekler, ACADS karşılaştırma problemi, Komut satırından kendi modeliniz, Deprem ve…"
+---
+
 # Lythos LE — örnekler
 
 Bütün çıktılar gerçek çalıştırmalardır.

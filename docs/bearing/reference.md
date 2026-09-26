@@ -1,3 +1,8 @@
+---
+title: "Lythos Bearing başvuru — yöntemler, girdiler, doğrulama"
+description: "Lythos Bearing başvuru kılavuzu: Genel denklem, Girdiler, Hesaplananlar, Kontroller ve EN 1997-1, Proje dosyası (.bearing), Modüller, Doğrulama, Sınırlar."
+---
+
 # Lythos Bearing — başvuru
 
 ## Genel denklem

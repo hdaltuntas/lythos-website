@@ -1,4 +1,5 @@
-import { defineConfig, type DefaultTheme } from 'vitepress'
+import { defineConfig, type DefaultTheme, type HeadConfig } from 'vitepress'
+import { products as productData } from './theme/products'
 
 // Site https://lythosapp.com kökünde (Cloudflare Pages) yayınlanır. Alt yolda
 // yayın gerekirse (örn. GitHub Pages proje sitesi) yol BASE ile verilir.
@@ -67,7 +68,92 @@ export default defineConfig({
   base,
   title: 'Lythos',
   cleanUrls: true,
-  sitemap: { hostname: site },
+  sitemap: {
+    hostname: site,
+    // Her adres Türkçe ve İngilizce karşılığıyla birlikte listelenir (hreflang).
+    transformItems: (items) =>
+      items
+        .filter((it) => !it.url.includes('404'))
+        .map((it) => {
+          const path = '/' + it.url.replace(/^\//, '')
+          const tr = path.startsWith('/en/') ? path.slice(3) : path
+          return {
+            ...it,
+            links: [
+              { lang: 'tr', url: site + tr },
+              { lang: 'en', url: site + '/en' + tr },
+              { lang: 'x-default', url: site + tr }
+            ]
+          }
+        })
+  },
+
+  // Sayfa başına kanonik adres, dil eşleri, paylaşım kartı ve yapılandırılmış veri.
+  transformHead({ pageData }) {
+    const rel = pageData.relativePath
+    if (pageData.isNotFound || rel === '404.md') return [['meta', { name: 'robots', content: 'noindex' }]]
+    const path = '/' + rel.replace(/(^|\/)index\.md$/, '$1').replace(/\.md$/, '')
+    const en = path.startsWith('/en/')
+    const trPath = en ? path.slice(3) : path
+    const url = site + path
+    const title = pageData.frontmatter.title || pageData.title
+    const fullTitle = pageData.frontmatter.titleTemplate === false ? title : `${title} | Lythos`
+    const desc = pageData.frontmatter.description || pageData.description || ''
+    const pid = trPath.split('/')[1]
+    const product = productData.find((p) => p.id === pid)
+    const image = site + (product ? product.cover : '/img/fea/slope_strain.png')
+    const head: HeadConfig[] = [
+      ['link', { rel: 'canonical', href: url }],
+      ['link', { rel: 'alternate', hreflang: 'tr', href: site + trPath }],
+      ['link', { rel: 'alternate', hreflang: 'en', href: site + '/en' + trPath }],
+      ['link', { rel: 'alternate', hreflang: 'x-default', href: site + trPath }],
+      ['meta', { property: 'og:url', content: url }],
+      ['meta', { property: 'og:title', content: fullTitle }],
+      ['meta', { property: 'og:description', content: desc }],
+      ['meta', { property: 'og:image', content: image }],
+      ['meta', { property: 'og:locale', content: en ? 'en_US' : 'tr_TR' }],
+      ['meta', { property: 'og:locale:alternate', content: en ? 'tr_TR' : 'en_US' }],
+      ['meta', { name: 'twitter:title', content: fullTitle }],
+      ['meta', { name: 'twitter:description', content: desc }],
+      ['meta', { name: 'twitter:image', content: image }]
+    ]
+    const author = { '@type': 'Person', name: 'Hasan Deniz Altuntaş', url: 'https://github.com/hdaltuntas' }
+    let ld: object | null = null
+    if (trPath === '/') {
+      ld = {
+        '@context': 'https://schema.org',
+        '@type': 'WebSite',
+        name: 'Lythos',
+        url: site + (en ? '/en/' : '/'),
+        description: desc,
+        inLanguage: en ? 'en' : 'tr',
+        author
+      }
+    } else if (product && trPath === `/${product.id}/`) {
+      ld = {
+        '@context': 'https://schema.org',
+        '@type': 'SoftwareApplication',
+        name: product.name,
+        description: desc,
+        url,
+        image,
+        applicationCategory: 'EngineeringApplication',
+        applicationSubCategory: en ? 'Geotechnical engineering' : 'Geoteknik mühendisliği',
+        operatingSystem: 'Windows, macOS, Linux',
+        softwareVersion: product.version,
+        softwareRequirements: `Python ${product.python}`,
+        license: 'https://www.gnu.org/licenses/agpl-3.0.html',
+        downloadUrl: product.pypi ? `https://pypi.org/project/${product.pkg}/` : product.repo,
+        codeRepository: product.repo,
+        inLanguage: ['tr', 'en'],
+        isAccessibleForFree: true,
+        offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' },
+        author
+      }
+    }
+    if (ld) head.push(['script', { type: 'application/ld+json' }, JSON.stringify(ld)])
+    return head
+  },
   lastUpdated: true,
   appearance: true,
 
@@ -75,10 +161,9 @@ export default defineConfig({
     ['link', { rel: 'icon', type: 'image/svg+xml', href: `${base}logo.svg` }],
     ['meta', { name: 'theme-color', content: '#c6613f' }],
     ['meta', { property: 'og:type', content: 'website' }],
-    ['meta', { property: 'og:title', content: 'Lythos — geoteknik mühendisliği yazılım ailesi' }],
-    ['meta', { property: 'og:url', content: site }],
-    ['meta', { property: 'og:image', content: `${site}/img/fea/slope_strain.png` }],
+    ['meta', { property: 'og:site_name', content: 'Lythos' }],
     ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
+    ['meta', { name: 'author', content: 'Hasan Deniz Altuntaş' }],
     ['link', { rel: 'preconnect', href: 'https://fonts.googleapis.com' }],
     ['link', { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' }],
     [

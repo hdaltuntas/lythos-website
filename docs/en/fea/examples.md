@@ -1,3 +1,8 @@
+---
+title: "LythosFEA examples — 2D finite element analysis of slopes and excavations"
+description: "LythosFEA examples with real output: A slope factor of safety — Python script, An anchored deep excavation — command line, A construction sequence from a CAD…"
+---
+
 # LythosFEA — examples
 
 Every output and figure is from a real run.

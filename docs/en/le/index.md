@@ -1,3 +1,8 @@
+---
+title: "Lythos LE — limit equilibrium slope stability (Bishop, Spencer, Morgenstern-Price)"
+description: "Lythos LE: slope stability by the method of slices. Eight methods including Bishop, Janbu, Spencer and Morgenstern-Price, critical surface search; pure Python."
+---
+
 # Lythos LE
 
 <ProductHero id="le" />

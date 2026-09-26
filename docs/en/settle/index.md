@@ -1,3 +1,8 @@
+---
+title: "Lythos Settle — settlement and consolidation of foundations and embankments"
+description: "Lythos Settle: settlement of foundations and embankments; Boussinesq stresses, Steinbrenner and Schmertmann immediate settlement, consolidation and time–settlement."
+---
+
 # Lythos Settle
 
 <ProductHero id="settle" />

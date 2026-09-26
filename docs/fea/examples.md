@@ -1,3 +1,8 @@
+---
+title: "LythosFEA örnekleri — 2B sonlu elemanlar ile şev ve derin kazı analizi"
+description: "LythosFEA ile gerçekten çalıştırılmış örnekler ve çıktıları: Şev güvenlik sayısı — Python betiği, Ankrajlı derin kazı — komut satırı, CAD çiziminden inşaat…"
+---
+
 # LythosFEA — örnekler
 
 Bütün çıktılar ve şekiller gerçek çalıştırmalardan alınmıştır.

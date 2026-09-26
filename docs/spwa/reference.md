@@ -1,3 +1,8 @@
+---
+title: "Lythos SPWA başvuru — yöntemler, girdiler, doğrulama"
+description: "Lythos SPWA başvuru kılavuzu: Yöntem notları, Girdiler, Proje dosyası (.spwa), Modüller, Doğrulama."
+---
+
 # Lythos SPWA — başvuru
 
 ## Yöntem notları

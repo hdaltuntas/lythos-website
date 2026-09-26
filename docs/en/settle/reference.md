@@ -1,3 +1,8 @@
+---
+title: "Lythos Settle reference — methods, inputs, validation"
+description: "Lythos Settle reference: Inputs, What it computes, Evaluation points, Project file (.settle), Modules, Validation, Limits."
+---
+
 # Lythos Settle — reference
 
 ## Inputs

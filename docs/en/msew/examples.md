@@ -1,3 +1,8 @@
+---
+title: "Lythos MSEW examples — mechanically stabilised earth (MSE) wall design"
+description: "Lythos MSEW examples with real output: The starter wall, Changing the reinforcement, A taller wall with earthquake, A height study."
+---
+
 # Lythos MSEW — examples
 
 Every output is from a real run. The starter project: **a 6 m MSE wall with steel strips**.

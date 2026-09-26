@@ -1,3 +1,8 @@
+---
+title: "Lythos Bearing reference — methods, inputs, validation"
+description: "Lythos Bearing reference: The general equation, Inputs, What it computes, Checks and EN 1997-1, Project file (.bearing), Modules, Validation, Limits."
+---
+
 # Lythos Bearing — reference
 
 ## The general equation

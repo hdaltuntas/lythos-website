@@ -1,3 +1,8 @@
+---
+title: "Lythos SPWA örnekleri — palplanş perde ve ankrajlı iksa analizi"
+description: "Lythos SPWA ile gerçekten çalıştırılmış örnekler ve çıktıları: Limit denge ve kiriş-yay, Deprem katsayısının gömülmeye etkisi, Güvenilirlik çalışması."
+---
+
 # Lythos SPWA — örnekler
 
 Bütün çıktılar gerçek çalıştırmalardır. Başlangıç projesi: **iki sıra ankrajlı rıhtım perdesi**.

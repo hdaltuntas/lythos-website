@@ -1,3 +1,8 @@
+---
+title: "LythosFEA — 2D finite element analysis of slopes and excavations"
+description: "LythosFEA: open-source 2D finite element software for slopes, embankments and deep excavations. Strength reduction factor of safety, staged construction, DXF import."
+---
+
 # LythosFEA
 
 <ProductHero id="fea" />

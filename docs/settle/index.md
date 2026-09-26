@@ -1,3 +1,8 @@
+---
+title: "Lythos Settle — temel ve dolgu oturma hesabı, konsolidasyon"
+description: "Lythos Settle: temel ve dolgu oturması; Boussinesq gerilme dağılımı, Steinbrenner ve Schmertmann ani oturma, konsolidasyon, ikincil sıkışma ve zaman–oturma eğrisi."
+---
+
 # Lythos Settle
 
 <ProductHero id="settle" />

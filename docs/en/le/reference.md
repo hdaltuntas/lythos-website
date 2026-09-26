@@ -1,3 +1,8 @@
+---
+title: "Lythos LE reference — methods, inputs, validation"
+description: "Lythos LE reference: Model format, Formulation, Command line, Validation, Limitations, Project layout."
+---
+
 # Lythos LE — reference
 
 ## Model format

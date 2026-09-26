@@ -1,3 +1,8 @@
+---
+title: "Lythos Pile examples — pile capacity, pile groups and rock sockets"
+description: "Lythos Pile examples with real output: A pile group, A length sweep, Group efficiency methods, A rock socket."
+---
+
 # Lythos Pile — examples
 
 Every output is from a real run. The starter project: **a 3 × 3 group of bored piles in layered ground**.

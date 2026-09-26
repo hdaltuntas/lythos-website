@@ -1,3 +1,8 @@
+---
+title: "Lythos MSEW örnekleri — donatılı zemin (MSE) istinat duvarı tasarımı"
+description: "Lythos MSEW ile gerçekten çalıştırılmış örnekler ve çıktıları: Başlangıç duvarı, Donatı türünü değiştirmek, Daha yüksek duvar ve deprem, Yükseklik çalışması."
+---
+
 # Lythos MSEW — örnekler
 
 Bütün çıktılar gerçek çalıştırmalardır. Başlangıç projesi: **çelik şeritli, 6 m yüksekliğinde MSE duvar**.

@@ -1,3 +1,8 @@
+---
+title: "Lythos Pile reference — methods, inputs, validation"
+description: "Lythos Pile reference: Shaft friction, Base resistance, Weight, capacity and the check, Groups, Settlement, Rock socket, Inputs, Modules, Validation."
+---
+
 # Lythos Pile — reference
 
 ## Shaft friction

@@ -1,3 +1,8 @@
+---
+title: "Lythos Settle başvuru — yöntemler, girdiler, doğrulama"
+description: "Lythos Settle başvuru kılavuzu: Girdiler, Hesaplananlar, Hesap noktaları, Proje dosyası (.settle), Modüller, Doğrulama, Sınırlar."
+---
+
 # Lythos Settle — başvuru
 
 ## Girdiler

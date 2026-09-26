@@ -1,3 +1,8 @@
+---
+title: "Ortak mimari — tarayıcı arayüzü, komut satırı, Python"
+description: "Lythos ailesinin ortak mimarisi: tarayıcıdan çalıştırılan yerel arayüz, komut satırı, Python betikleri, JSON proje dosyaları, PDF/HTML/Word raporlar."
+---
+
 # Ortak mimari
 
 Lythos ailesinin sekiz üyesi de aynı mimariyi paylaşır; Lythos LE aynı fikri bağımlılıksız bir çekirdekle uygular. Birini öğrenen hepsini kullanır.

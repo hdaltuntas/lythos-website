@@ -1,3 +1,8 @@
+---
+title: "Shared architecture — browser interface, command line, Python"
+description: "The Lythos family’s shared architecture: a local browser interface, command line, Python scripting, JSON project files, PDF/HTML/Word reports and studies."
+---
+
 # Shared architecture
 
 All eight members of the Lythos family share one architecture; Lythos LE implements the same idea with a dependency-free core. Learn one and you can use them all.

@@ -1,3 +1,8 @@
+---
+title: "LythosFEA başvuru — yöntemler, girdiler, doğrulama"
+description: "LythosFEA başvuru kılavuzu: Komut satırı, DXF içe aktarma, Doğrulama, Sınırlar."
+---
+
 # LythosFEA — başvuru
 
 ## Komut satırı

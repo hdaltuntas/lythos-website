@@ -1,3 +1,8 @@
+---
+title: "Lythos MSEW — donatılı zemin (MSE) istinat duvarı tasarımı"
+description: "Lythos MSEW: donatılı zemin (MSE) duvar tasarımı; FHWA/AASHTO dış ve iç duraylılık, çelik şerit ve geogrid donatı, sıyrılma, korozyon, deprem, ASD veya LRFD."
+---
+
 # Lythos MSEW
 
 <ProductHero id="msew" />

@@ -1,3 +1,8 @@
+---
+title: "Lythos Pile örnekleri — kazık taşıma gücü, kazık grubu ve kaya soketi"
+description: "Lythos Pile ile gerçekten çalıştırılmış örnekler ve çıktıları: Kazık grubu, Boy taraması, Grup verimi yöntemleri, Kaya soketi."
+---
+
 # Lythos Pile — örnekler
 
 Bütün çıktılar gerçek çalıştırmalardır. Başlangıç projesi: **tabakalı zeminde 3 × 3 fore kazık grubu**.

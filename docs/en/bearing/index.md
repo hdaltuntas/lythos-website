@@ -1,3 +1,8 @@
+---
+title: "Lythos Bearing — bearing capacity of shallow foundations"
+description: "Lythos Bearing: bearing capacity of shallow foundations; Terzaghi, Meyerhof, Hansen, Vesić and EN 1997-1 side by side, eccentric loads, layered soil, seismic, reliability."
+---
+
 # Lythos Bearing
 
 <ProductHero id="bearing" />

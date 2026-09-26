@@ -1,3 +1,8 @@
+---
+title: "Lythos MSEW başvuru — yöntemler, girdiler, doğrulama"
+description: "Lythos MSEW başvuru kılavuzu: Hesaplananlar, Girdiler, Proje dosyası (.msew), Modüller, Doğrulama, Kapsam dışı."
+---
+
 # Lythos MSEW — başvuru
 
 ## Hesaplananlar
